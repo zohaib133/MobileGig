@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "MobileGigs",
+    "slug": "mobile-gig",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo.png",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#f4d5b4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "./assets/"
+    ],
+    "android": {
+      "package": "com.MobileGigs",
+      "versionCode": 153,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1085296140950638~3429778855",
+        "googleMaps": {
+          "apiKey": "AIzaSyC_LWPOTamnTLKR0IVa5pX_w2Zxo9hE0Sw"
+        },
+        "googleSignIn": {
+          "apiKey": "AIzaSyC_LWPOTamnTLKR0IVa5pX_w2Zxo9hE0Sw",
+          "certificateHash": "FB:FE:09:41:1C:C1:8F:CF:5F:65:E5:28:4D:E9:38:FF:9A:81:A9:39"
+        }
+      },
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW",
+        "READ_PHONE_STATE",
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "VIBRATE",
+        "MODIFY_AUDIO_SETTINGS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "WRITE_SETTINGS"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.g7technologies.MobileGigs",
+      "buildNumber": "1.2.1",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1085296140950638~7528805961",
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.715367300348-mu4dm3lsgrlrnm1aope6r3mcht89dr09"
+        }
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Enable Camera to Upload Profile Photo1",
+        "NSMicrophoneUsageDescription": "Enable Microphone in order to Use Camera",
+        "NSPhotoLibraryUsageDescription": "Enable Camera to Upload Profile Photo2",
+        "NSPhotoLibraryAddUsageDescription": "Enable Camera to Upload Profile Photo3"
+      }
+    }
+  }
+}

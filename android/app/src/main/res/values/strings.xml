@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+  <string name="app_name">MobileGigs</string>
+  <string name="facebook_app_id">347837323726059</string>
+
+  <string name="facebook_client_token">e13503b514dc44aa7721596e22d8f103</string>
+</resources>
